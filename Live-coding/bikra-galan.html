@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bikra-galan</title>
+    <style>
+        table, tr, th, td{
+            border: solid 2px black;
+            border-collapse: collapse;
+        }
+
+        th {
+            width: 25%;
+        }
+
+        th, td{
+            padding: 7px;
+        }
+
+        tr:nth-child(even),
+        tr:first-child{
+            background-color: rgba(128, 128, 128, 0.329);
+        }
+
+        tr:hover{
+            background-color: rgba(128, 128, 128, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>JavaScript Arithmetic</h1>
+
+        <table>
+            <tr>
+                <th>Variable</th>
+                <th>Nilai</th>
+                <th rowspan="5"><img id="gambar" src="https://www.techfor.id/wp-content/uploads/2019/12/html-1024x580.png" alt="html" width="200px" height="200px"></th>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td id="var1">5</td>
+            </tr>
+            <tr>
+                <td>b</td>
+                <td id="var2">2</td>
+            </tr>
+            <tr>
+                <td>c</td>
+                <td id="var3">1</td>
+            </tr>
+            <tr onmouseover="tampilHasil()" onmouseleave="tampilKosong()">
+                <td>Hasil</td>
+                <td id="hasil"></td>
+            </tr>
+        </table><br><br>
+        <button onclick="ganti()">Ubah Nilai</button>
+    </center>
+
+    <script>
+        function Hitung(a, b, c) {
+        return parseInt(a) + parseInt(b) - parseInt(c);
+    }
+    
+    function tampilHasil() {
+        let a = document.getElementById("var1").innerHTML;
+        let b = document.getElementById("var2").innerHTML;
+        let c = document.getElementById("var3").innerHTML;
+        document.getElementById("hasil").innerHTML = Hitung(a, b, c);
+    }
+
+    function tampilKosong() {
+        document.getElementById("hasil").innerHTML = "";
+    }
+
+    function ganti() {
+        let aBaru = prompt("masukan Nilai A Baru", document.getElementById("var1").innerHTML);
+        document.getElementById("var1").innerHTML = aBaru;
+        let bBaru = prompt("masukan Nilai B Baru", document.getElementById("var2").innerHTML);
+        document.getElementById("var2").innerHTML = bBaru;
+        let cBaru = prompt("masukan Nilai C Baru", document.getElementById("var3").innerHTML);
+        document.getElementById("var3").innerHTML = cBaru;
+
+        document.getElementById("gambar").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/200px-Unofficial_JavaScript_logo_2.svg.png";
+    }
+    </script>
+</body>
+</html>

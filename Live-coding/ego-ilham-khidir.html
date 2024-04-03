@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ego-ilham-khidir</title>
+    <style>
+        table, tr, th, td{
+            border: solid 2px black;
+            border-collapse: collapse;
+        }
+
+        th {
+            width: 25%;
+        }
+
+        th, td{
+            padding: 7px;
+        }
+
+        tr:nth-child(even),
+        tr:first-child{
+            background-color: rgba(128, 128, 128, 0.329);
+        }
+
+        tr:hover{
+            background-color: rgba(128, 128, 128, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>JavaScript Arithmetic</h1>
+
+        <table>
+            <tr>
+                <th>Variable</th>
+                <th>Nilai</th>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td id="var1">5</td>
+            </tr>
+            <tr>
+                <td>b</td>
+                <td id="var2">2</td>
+            </tr>
+            <tr>
+                <td>c</td>
+                <td id="var3">1</td>
+            </tr>
+            <tr onmouseover="tampilHasil()" onmouseleave="tampilKosong()">
+                <td>Hasil</td>
+                <td id="hasil"></td>
+            </tr>
+        </table>
+    </center>
+
+    <script>
+        function Hitung(a, b, c) {
+        return parseInt(a) + parseInt(b) - parseInt(c);
+    }
+    
+    function tampilHasil() {
+        let a = document.getElementById("var1").innerHTML;
+        let b = document.getElementById("var2").innerHTML;
+        let c = document.getElementById("var3").innerHTML;
+        document.getElementById("hasil").innerHTML = Hitung(a, b, c);
+    }
+
+    function tampilKosong() {
+        document.getElementById("hasil").innerHTML = "";
+    }
+    </script>
+</body>
+</html>
