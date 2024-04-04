@@ -31,3 +31,9 @@ Tabel HTML memungkinkan para pengembang web untuk mengatur data ke dalam baris d
 
 ### List
 ![alt text](img/04-list.png)
+
+## CSS
+1. CSS adalah singkatan dari Cascading Style Sheets 
+2. CSS menjelaskan bagaimana elemen HTML akan ditampilkan di layar, kertas, atau dalam media lain 
+3. CSS menghemat banyak pekerjaan. Ini dapat mengontrol tata letak banyak halaman web sekaligus 
+4. Lembar gaya eksternal disimpan dalam file CSS
