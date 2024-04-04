@@ -12,3 +12,7 @@ Kelas : TI-1A
 3. HTML menjelaskan struktur halaman Web. HTML terdiri dari serangkaian elemen. 
 4. Elemen HTML memberitahu browser bagaimana cara menampilkan konten. 
 5. Elemen HTML memberi label pada potongan-potongan konten seperti 'ini adalah judul', 'ini adalah paragraf', 'ini adalah tautan', dll.
+
+### Heading
+Heading HTML adalah judul atau subjudul yang ingin Anda tampilkan di halaman web.
+![alt text](img/01-heading.png)
