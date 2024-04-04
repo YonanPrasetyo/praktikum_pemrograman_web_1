@@ -2,9 +2,9 @@
 Pada praktikum pemrograman web I mempelajari HTML, CSS dan JavaScript.
 
 ## Identitas Diri
-Nama : Yonan Prasetyo
-NIM : 230102023
-Kelas : TI-1A
+Nama : Yonan Prasetyo <br>
+NIM : 230102023 <br>
+Kelas : TI-1A <br>
 
 ## HTML
 1. HTML adalah singkatan dari Hyper Text Markup Language. 
@@ -14,5 +14,5 @@ Kelas : TI-1A
 5. Elemen HTML memberi label pada potongan-potongan konten seperti 'ini adalah judul', 'ini adalah paragraf', 'ini adalah tautan', dll.
 
 ### Heading
-Heading HTML adalah judul atau subjudul yang ingin Anda tampilkan di halaman web.
+Heading HTML adalah judul atau subjudul yang ingin Anda tampilkan di halaman web. <br>
 ![alt text](img/01-heading.png)
