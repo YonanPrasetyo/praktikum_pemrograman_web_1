@@ -16,3 +16,18 @@ Kelas : TI-1A <br>
 ### Heading
 Heading HTML adalah judul atau subjudul yang ingin Anda tampilkan di halaman web. <br>
 ![alt text](img/01-heading.png)
+
+### Paragraf
+Elemen HTML <p> mendefinisikan sebuah paragraf. <br> 
+Sebuah paragraf selalu dimulai di baris baru, dan browser secara otomatis menambahkan sedikit spasi putih (margin) sebelum dan setelah sebuah paragraf. <br>
+![alt text](img/02-paragraph.png)
+
+### Quotation
+![alt text](img/03-Quotation.png)
+
+### Tabel
+Tabel HTML memungkinkan para pengembang web untuk mengatur data ke dalam baris dan kolom. <br>
+![alt text](img/05-table.png)
+
+### List
+![alt text](img/04-list.png)
