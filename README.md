@@ -37,3 +37,42 @@ Tabel HTML memungkinkan para pengembang web untuk mengatur data ke dalam baris d
 2. CSS menjelaskan bagaimana elemen HTML akan ditampilkan di layar, kertas, atau dalam media lain 
 3. CSS menghemat banyak pekerjaan. Ini dapat mengontrol tata letak banyak halaman web sekaligus 
 4. Lembar gaya eksternal disimpan dalam file CSS
+
+### Border
+![alt text](img/06-border.png)
+
+### Margin
+![alt text](img/07-margin.png)
+
+### Padding
+![alt text](img/08-padding.png)
+
+### Height & Width
+![alt text](img/09-height-width.png)
+
+### Box Model
+![alt text](img/10-box-model.png)
+
+### Text
+![alt text](img/11-text.png)
+
+### Font
+![alt text](img/12-font.png)
+
+### List
+![alt text](img/13-list.png)
+
+### Tabel
+![alt text](img/14-table.png)
+
+### Display
+![alt text](img/15-display.png)
+
+### Overflow
+![alt text](img/16-overflow.png)
+
+### Z-index
+![alt text](img/17-Z-INDEX.png)
+
+### Dropdown
+![alt text](img/18-dropdown.png)
