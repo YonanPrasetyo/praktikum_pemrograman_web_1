@@ -23,13 +23,13 @@ Sebuah paragraf selalu dimulai di baris baru, dan browser secara otomatis menamb
 ![alt text](img/02-paragraph.png)
 
 ### Quotation
-Dalam bab ini, kita akan membahas elemen HTML <blockquote>, <q>, <abbr>, <address>, <cite>, dan <bdo>. <br>
-- Elemen HTML <blockquote> mendefinisikan bagian yang dikutip dari sumber lain.
-- Tag HTML <q> mendefinisikan kutipan pendek.
-- Tag HTML <abbr> mendefinisikan singkatan atau akronim, seperti "HTML","CSS", "Tn.", "Dr.", "Segera", "ATM".
-- Tag HTML <address> mendefinisikan informasi kontak untuk penulis/pemilik dokumen atau artikel.
-- Tag HTML <cite> mendefinisikan judul dari karya kreatif (misalnya buku, puisi, lagu, film, lukisan, patung, dll.).
-- BDO adalah singkatan dari Bi-Directional Override. Tag HTML <bdo> digunakan untuk mengubah arah teks saat ini:
+Dalam bab ini, kita akan membahas elemen HTML "blockquote", "q", "abbr", "address", "cite", dan "bdo". <br>
+- Elemen HTML "blockquote" mendefinisikan bagian yang dikutip dari sumber lain.
+- Tag HTML "q" mendefinisikan kutipan pendek.
+- Tag HTML "abbr" mendefinisikan singkatan atau akronim, seperti "HTML","CSS", "Tn.", "Dr.", "Segera", "ATM".
+- Tag HTML "address" mendefinisikan informasi kontak untuk penulis/pemilik dokumen atau artikel.
+- Tag HTML "cite" mendefinisikan judul dari karya kreatif (misalnya buku, puisi, lagu, film, lukisan, patung, dll.).
+- BDO adalah singkatan dari Bi-Directional Override. Tag HTML "bdo" digunakan untuk mengubah arah teks saat ini:
 ![alt text](img/03-Quotation.png)
 
 ### Tabel
