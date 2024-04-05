@@ -106,17 +106,21 @@ Membuat dropdown yang dapat dihover dengan CSS. <br>
 ## JavaScript
 
 ### DOM Form
+Validasi formulir HTML dapat dilakukan dengan JavaScript. <br>
 ![alt text](img/19-form1.png)
 ![alt text](img/19-form2.png)
 
 ### DOM CSS
+DOM HTML memungkinkan JavaScript mengubah gaya elemen HTML. <br>
 ![alt text](img/20-domcss1.png)
 ![alt text](img/20-domcss2.png)
 
 ### DOM Animation
+Cara membuat animasi HTML menggunakan JavaScript. <br>
 ![alt text](img/21-animation1.png)
 ![alt text](img/21-animation2.png)
 
 ### DOM Events
+HTML DOM memungkinkan JavaScript bereaksi terhadap peristiwa HTML. <br>
 ![alt text](img/22-events1.png)
 ![alt text](img/22-events2.png)
