@@ -76,3 +76,21 @@ Tabel HTML memungkinkan para pengembang web untuk mengatur data ke dalam baris d
 
 ### Dropdown
 ![alt text](img/18-dropdown.png)
+
+## JavaScript
+
+### DOM Form
+![alt text](img/19-form1.png)
+![alt text](img/19-form2.png)
+
+### DOM CSS
+![alt text](img/20-domcss1.png)
+![alt text](img/20-domcss2.png)
+
+### DOM Animation
+![alt text](img/21-animation1.png)
+![alt text](img/21-animation2.png)
+
+### DOM Events
+![alt text](img/22-events1.png)
+![alt text](img/22-events2.png)
