@@ -29,7 +29,7 @@ Dalam bab ini, kita akan membahas elemen HTML "blockquote", "q", "abbr", "addres
 - Tag HTML "abbr" mendefinisikan singkatan atau akronim, seperti "HTML","CSS", "Tn.", "Dr.", "Segera", "ATM".
 - Tag HTML "address" mendefinisikan informasi kontak untuk penulis/pemilik dokumen atau artikel.
 - Tag HTML "cite" mendefinisikan judul dari karya kreatif (misalnya buku, puisi, lagu, film, lukisan, patung, dll.).
-- BDO adalah singkatan dari Bi-Directional Override. Tag HTML "bdo" digunakan untuk mengubah arah teks saat ini:
+- BDO adalah singkatan dari Bi-Directional Override. Tag HTML "bdo" digunakan untuk mengubah arah teks saat ini: <br>
 ![alt text](img/03-Quotation.png)
 
 ### Tabel
@@ -37,6 +37,7 @@ Tabel HTML memungkinkan para pengembang web untuk mengatur data ke dalam baris d
 ![alt text](img/05-table.png)
 
 ### List
+Daftar HTML memungkinkan pengembang web untuk mengelompokkan seperangkat item terkait dalam daftar. <br>
 ![alt text](img/04-list.png)
 
 ## CSS
@@ -46,42 +47,60 @@ Tabel HTML memungkinkan para pengembang web untuk mengatur data ke dalam baris d
 4. Lembar gaya eksternal disimpan dalam file CSS
 
 ### Border
+Properti border CSS memungkinkan Anda menentukan gaya, lebar, dan warna border elemen.<br>
 ![alt text](img/06-border.png)
 
 ### Margin
+Margin digunakan untuk menciptakan ruang di sekitar elemen, di luar border yang ditentukan. <br>
 ![alt text](img/07-margin.png)
 
 ### Padding
+Padding digunakan untuk menciptakan ruang di sekitar konten elemen, di dalam border yang ditentukan. <br>
 ![alt text](img/08-padding.png)
 
 ### Height & Width
+Properti "height" dan "width" CSS digunakan untuk mengatur tinggi dan lebar suatu elemen. <br>
 ![alt text](img/09-height-width.png)
 
 ### Box Model
+Semua elemen HTML dapat dianggap sebagai kotak. <br>
+Dalam CSS, istilah "model kotak" digunakan saat berbicara tentang desain dan tata letak. Model kotak CSS pada dasarnya adalah sebuah kotak yang melingkupi setiap elemen HTML. Ini terdiri dari: contetnt, padding, border, dan margin. <br>
 ![alt text](img/10-box-model.png)
 
 ### Text
+CSS memiliki banyak properti untuk memformat teks. <br>
 ![alt text](img/11-text.png)
 
 ### Font
 ![alt text](img/12-font.png)
 
 ### List
+Properti daftar CSS memungkinkan Anda untuk: <br>
+- Mengatur penanda item daftar yang berbeda untuk daftar terurut 
+- Mengatur penanda item daftar yang berbeda untuk daftar tak terurut 
+- Menetapkan gambar sebagai penanda item daftar 
+- Menambahkan warna latar belakang ke daftar dan item daftar <br>
 ![alt text](img/13-list.png)
 
 ### Tabel
 ![alt text](img/14-table.png)
 
 ### Display
+Properti "display" digunakan untuk menentukan bagaimana suatu elemen ditampilkan di halaman web. <br>
+Setiap elemen HTML memiliki nilai default, tergantung pada jenis elemen tersebut. <br>
+Nlai "display" default untuk sebagian besar elemen adalah block atau inline. Properti "display" digunakan untuk mengubah perilaku "display" default dari elemen HTML. <br>
 ![alt text](img/15-display.png)
 
 ### Overflow
+Properti "overflow" CSS mengontrol apa yang terjadi pada konten yang terlalu besar untuk masuk ke dalam area. <br>
 ![alt text](img/16-overflow.png)
 
 ### Z-index
+properti "z-indeks" menentukan urutan tumpukan suatu elemen <br>
 ![alt text](img/17-Z-INDEX.png)
 
 ### Dropdown
+Membuat dropdown yang dapat dihover dengan CSS. <br>
 ![alt text](img/18-dropdown.png)
 
 ## JavaScript
