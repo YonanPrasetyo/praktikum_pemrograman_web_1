@@ -126,4 +126,5 @@ HTML DOM memungkinkan JavaScript bereaksi terhadap peristiwa HTML. <br>
 ![alt text](img/22-events2.png)
 
 <br>
-### TERIMAKASIH TELAH MEMBACA
+
+## TERIMAKASIH TELAH MEMBACA
