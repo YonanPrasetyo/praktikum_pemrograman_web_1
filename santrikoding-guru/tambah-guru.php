@@ -30,6 +30,7 @@
                             <div class="form-grup">
                                 <label>Golongan</label>
                                 <select name="golongan" class="form-control">
+                                    <option value="">Pilih Golongan</option>
                                     <option value="III A">III A</option>
                                     <option value="III B">III B</option>
                                     <option value="III C">III C</option>
