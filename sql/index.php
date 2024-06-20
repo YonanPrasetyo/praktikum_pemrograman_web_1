@@ -6,25 +6,13 @@ $password = "";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password);
 
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-echo "Connected successfully<br>";
-
 // Create database
 $sql = "SHOW DATABASES LIKE 'Prak_Web'";
 $result = mysqli_query($conn, $sql);
 
-if (mysqli_num_rows($result) > 0) {
-    echo "Database already exists<br>";
-}else {
+if (mysqli_num_rows($result) == 0) {
     $sql = "CREATE DATABASE Prak_Web";
-    if (mysqli_query($conn, $sql)) {
-        echo "Database created successfully<br>";
-    } else {
-        echo "Error creating database: " . mysqli_error($conn);
-    }
+    mysqli_query($conn, $sql);
 }
 // mysqli_close($conn);
 
@@ -33,6 +21,11 @@ $dbname = "prak_web";
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 // sql to create table
+    
+$sql = "SHOW TABLES LIKE 'MyGuests'";
+$result = mysqli_query($conn, $sql);
+
+if (mysqli_num_rows($result) == 0) {
 $sql = "CREATE TABLE MyGuests (
     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     firstname VARCHAR(30) NOT NULL,
@@ -40,19 +33,7 @@ $sql = "CREATE TABLE MyGuests (
     email VARCHAR(50),
     reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
     )";
-    
-$tableExistsQuery = "SHOW TABLES LIKE 'MyGuests'";
-$result = mysqli_query($conn, $tableExistsQuery);
-
-if (mysqli_num_rows($result) > 0) {
-    echo "Table 'MyGuests' already exists.<br>";
-} else {
-
-    if (mysqli_query($conn, $sql)) {
-        echo "Table MyGuests created successfully<br>";
-    } else {
-        echo "Error creating table: " . mysqli_error($conn);
-    }
+    mysqli_query($conn, $sql);
 }
 
 ?>
